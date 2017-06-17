@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\2-CLK\CLK.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\3-EXTI\EXTI.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\1-GPIO\gpio.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
