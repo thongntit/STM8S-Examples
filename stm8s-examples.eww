@@ -10,6 +10,9 @@
   <project>
     <path>$WS_DIR$\1-GPIO\gpio.ewp</path>
   </project>
+  <project>
+    <path>$WS_DIR$\4-TIM\TIM.ewp</path>
+  </project>
   <batchBuild/>
 </workspace>
 

@@ -26,14 +26,10 @@ void main(void)
   {
     /* Generate pulses */
     GPIO_WriteReverse(GPIOC,GPIO_PIN_3);
-    for(u16 i=0; i<65535;i++)
+    for(u32 i=0; i<0xFFFF;i++)
     {}
   }
   
-}
-INTERRUPT_HANDLER(EXTI_PORTD_IRQHandler, 6)
-{
-  GPIO_WriteReverse(GPIOB,GPIO_PIN_5);
 }
 
 #ifdef USE_FULL_ASSERT
