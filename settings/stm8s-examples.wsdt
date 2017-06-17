@@ -3,7 +3,7 @@
 <Workspace>
   <ConfigDictionary>
     
-  <CurrentConfigs><Project>EXTI/Debug</Project><Project>gpio/Debug</Project><Project>CLK/Debug</Project><Project>TIM/Debug</Project></CurrentConfigs><CurrentProj>EXTI</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <CurrentConfigs><Project>CLK/Debug</Project><Project>gpio/Debug</Project><Project>EXTI/Debug</Project><Project>TIM/Debug</Project></CurrentConfigs><CurrentProj>TIM</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
   <Desktop>
     <Static>
       <Build>
@@ -25,7 +25,7 @@
     <Windows>
       
       
-    <Wnd0>
+    <Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-3432-18501</Identity>
@@ -35,7 +35,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-14180-18504</Identity>
@@ -43,24 +43,24 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>CLK</ExpandedNode><ExpandedNode>CLK/library</ExpandedNode><ExpandedNode>CLK/source</ExpandedNode><ExpandedNode>EXTI</ExpandedNode><ExpandedNode>EXTI/library</ExpandedNode><ExpandedNode>EXTI/source</ExpandedNode><ExpandedNode>TIM</ExpandedNode><ExpandedNode>TIM/library</ExpandedNode><ExpandedNode>gpio</ExpandedNode><ExpandedNode>gpio/library</ExpandedNode><ExpandedNode>gpio/source</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>CLK</ExpandedNode><ExpandedNode>CLK/library</ExpandedNode><ExpandedNode>CLK/source</ExpandedNode><ExpandedNode>EXTI</ExpandedNode><ExpandedNode>EXTI/library</ExpandedNode><ExpandedNode>EXTI/source</ExpandedNode><ExpandedNode>TIM</ExpandedNode><ExpandedNode>TIM/library</ExpandedNode><ExpandedNode>TIM/user</ExpandedNode><ExpandedNode>gpio</ExpandedNode><ExpandedNode>gpio/library</ExpandedNode><ExpandedNode>gpio/source</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\3-EXTI\STM8S_StdPeriph_Driver\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>9</YPos2><SelStart2>1017</SelStart2><SelEnd2>1017</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\3-EXTI\STM8S_StdPeriph_Driver\stm8s_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>147</YPos2><SelStart2>4680</SelStart2><SelEnd2>4680</SelEnd2></Tab><ActiveTab>1</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\4-TIM\STM8S_StdPeriph_Driver\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>564</SelStart2><SelEnd2>564</SelEnd2></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-0485E078><key>iaridepm.enu1</key></Toolbar-0485E078></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes><Toolbar-0E2B6D18><key>debuggergui.enu1</key></Toolbar-0E2B6D18></Sizes></Row3></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>754</Bottom><Right>236</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>104167</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>123958</sizeVertCX><sizeVertCY>758275</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>200</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>200602</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-057FE078><key>iaridepm.enu1</key></Toolbar-057FE078></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes><Toolbar-09D86D88><key>debuggergui.enu1</key></Toolbar-09D86D88></Sizes></Row3></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>754</Bottom><Right>236</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>104167</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>123958</sizeVertCX><sizeVertCY>758275</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>200</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>200602</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

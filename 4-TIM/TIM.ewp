@@ -1604,6 +1604,9 @@
   </group>
   <group>
     <name>user</name>
+    <file>
+      <name>$PROJ_DIR$\STM8S_StdPeriph_Driver\main.c</name>
+    </file>
   </group>
 </project>
 
