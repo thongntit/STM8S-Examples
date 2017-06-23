@@ -16,7 +16,7 @@ void main(void)
   /* GPIO Config*/
   GPIO_Init(GPIOB,GPIO_PIN_5,GPIO_MODE_OUT_PP_LOW_FAST); //Led Pin
   GPIO_Init(GPIOC,GPIO_PIN_3,GPIO_MODE_OUT_PP_LOW_FAST); // Output mode for GPIOC Pin3
-  GPIO_Init(GPIOD,GPIO_PIN_3,GPIO_MODE_IN_FL_IT); // Input mode with EXTI for GPIOD Pin3
+  GPIO_Init(GPIOD,GPIO_PIN_3,GPIO_MODE_IN_PU_IT); // Input mode with EXTI for GPIOD Pin3
   /* External Interrupt Config */
   EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOD, EXTI_SENSITIVITY_FALL_ONLY);
   EXTI_SetTLISensitivity(EXTI_TLISENSITIVITY_FALL_ONLY);

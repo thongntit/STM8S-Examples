@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=227216806
+Checksum=160994955
 [CodeCoverage]
 Enabled=_ 0
 [DriverProfiling]
@@ -68,7 +68,7 @@ Category=_ 0
 LoggingEnabled=_ 0
 LogFile=_ ""
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\STM8S_StdPeriph_Driver\main.c}.42.3" 1 0 0 0 "" 0 ""
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\STM8S_StdPeriph_Driver\main.c}.57.3" 1 0 0 0 "" 0 ""
 Count=1
 [Aliases]
 Count=0

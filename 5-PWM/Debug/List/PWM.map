@@ -1,0 +1,246 @@
+###############################################################################
+#
+# IAR ELF Linker V2.20.1.176 for STM8                     24/Jun/2017  00:32:05
+# Copyright 2010-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Exe\PWM.out
+#    Map file     =  
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\List\PWM.map
+#    Command line =  
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj\main.o
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj\stm8s_clk.o
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj\stm8s_gpio.o
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj\stm8s_tim2.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Exe\PWM.out --map
+#        C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\List\PWM.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.3\stm8\config\lnkstm8s003f3.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x0003ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0003ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x008000-0x009fff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x009fff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+
+  Section            Kind      Address   Size  Object
+  -------            ----      -------   ----  ------
+"A1":                                    0x10
+  .vregs             uninit   0x000000   0x10  vregs.o [4]
+                            - 0x000010   0x10
+
+"P2":                                     0x2
+  P2-1                        0x000010    0x2  <Init block>
+    .near.data       inited   0x000010    0x2  main.o [1]
+                            - 0x000012    0x2
+
+"A2":                                   0x100
+  CSTACK                      0x000300  0x100  <Block>
+    CSTACK           uninit   0x000300  0x100  <Block tail>
+                            - 0x000400  0x100
+
+"A3":                                    0x80
+  INTVEC                      0x008000   0x80  <Block>
+    .intvec          const    0x008000   0x80  interrupt.o [4]
+                            - 0x008080   0x80
+
+"P3":                                   0x27f
+  .near_func.text    ro code  0x008080   0xac  stm8s_tim2.o [1]
+  .near.rodata       const    0x00812c   0x54  stm8s_tim2.o [1]
+  .near_func.text    ro code  0x008180   0x37  vreg_util.o [4]
+  .near_func.text    ro code  0x0081b7   0x2f  stm8s_tim2.o [1]
+  .near_func.text    ro code  0x0081e6   0x2f  stm8s_tim2.o [1]
+  .near_func.text    ro code  0x008215   0x2f  stm8s_tim2.o [1]
+  .near_func.text    ro code  0x008244   0x28  init_small.o [4]
+  .near_func.text    ro code  0x00826c   0x24  main.o [1]
+  .iar.init_table    const    0x008290    0xa  - Linker created -
+  .near_func.text    ro code  0x00829a   0x17  init.o [4]
+  .near_func.text    ro code  0x0082b1   0x14  __dbg_xxexit.o [3]
+  .near_func.text    ro code  0x0082c5   0x13  cstartup.o [4]
+  .near_func.text    ro code  0x0082d8    0xc  stm8s_tim2.o [1]
+  .near_func.text    ro code  0x0082e4    0x5  main.o [1]
+  .near_func.text    ro code  0x0082e9    0x5  cexit.o [4]
+  .near_func.text    ro code  0x0082ee    0x3  interrupt.o [4]
+  .near_func.text    ro code  0x0082f1    0x3  low_level_init.o [4]
+  .near_func.text    ro code  0x0082f4    0x3  exit.o [4]
+  .near_func.text    ro code  0x0082f7    0x3  unhandled_exception.o [4]
+  .near_func.text    ro code  0x0082fa    0x2  main.o [1]
+  Initializer bytes  const    0x0082fc    0x2  <for P2-1>
+  .near_func.text    ro code  0x0082fe    0x1  __dbg_break.o [3]
+                            - 0x0082ff  0x27f
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Copy (__iar_copy_init2)
+    1 source range, total size 0x2:
+          0x0082fc   0x2
+    1 destination range, total size 0x2:
+          0x000010   0x2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj: [1]
+    main.o                      43        2        2
+    stm8s_tim2.o               325       84
+    ------------------------------------------------
+    Total:                     368       86        2
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      23
+    init_small.o                40
+    interrupt.o                  3      128
+    low_level_init.o             3
+    unhandled_exception.o        3
+    vreg_util.o                 55
+    vregs.o                                       16
+    ------------------------------------------------
+    Total:                     154      128       16
+
+    Linker created                       10      256
+----------------------------------------------------
+    Grand Total:               543      224      274
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+.iar.init_table$$Base   0x008290         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00829a         --   Gb  - Linker created -
+?b0                     0x000000        Data  Gb  vregs.o [4]
+?b1                     0x000001        Data  Gb  vregs.o [4]
+?b10                    0x00000a        Data  Gb  vregs.o [4]
+?b11                    0x00000b        Data  Gb  vregs.o [4]
+?b12                    0x00000c        Data  Gb  vregs.o [4]
+?b13                    0x00000d        Data  Gb  vregs.o [4]
+?b14                    0x00000e        Data  Gb  vregs.o [4]
+?b15                    0x00000f        Data  Gb  vregs.o [4]
+?b2                     0x000002        Data  Gb  vregs.o [4]
+?b3                     0x000003        Data  Gb  vregs.o [4]
+?b4                     0x000004        Data  Gb  vregs.o [4]
+?b5                     0x000005        Data  Gb  vregs.o [4]
+?b6                     0x000006        Data  Gb  vregs.o [4]
+?b7                     0x000007        Data  Gb  vregs.o [4]
+?b8                     0x000008        Data  Gb  vregs.o [4]
+?b9                     0x000009        Data  Gb  vregs.o [4]
+?e0                     0x000001        Data  Gb  vregs.o [4]
+?e1                     0x000005        Data  Gb  vregs.o [4]
+?e2                     0x000009        Data  Gb  vregs.o [4]
+?e3                     0x00000d        Data  Gb  vregs.o [4]
+?epilogue_w4            0x0081b3        Code  Gb  vreg_util.o [4]
+?l0                     0x000000        Data  Gb  vregs.o [4]
+?l1                     0x000004        Data  Gb  vregs.o [4]
+?l2                     0x000008        Data  Gb  vregs.o [4]
+?l3                     0x00000c        Data  Gb  vregs.o [4]
+?pop_w4                 0x00819d        Code  Gb  vreg_util.o [4]
+?pop_w6                 0x0081a4        Code  Gb  vreg_util.o [4]
+?push_w4                0x008180        Code  Gb  vreg_util.o [4]
+?push_w6                0x008185        Code  Gb  vreg_util.o [4]
+?w0                     0x000000        Data  Gb  vregs.o [4]
+?w1                     0x000002        Data  Gb  vregs.o [4]
+?w2                     0x000004        Data  Gb  vregs.o [4]
+?w3                     0x000006        Data  Gb  vregs.o [4]
+?w4                     0x000008        Data  Gb  vregs.o [4]
+?w5                     0x00000a        Data  Gb  vregs.o [4]
+?w6                     0x00000c        Data  Gb  vregs.o [4]
+?w7                     0x00000e        Data  Gb  vregs.o [4]
+CCR1_Val                0x000010   0x2  Data  Gb  main.o [1]
+CSTACK$$Base            0x000300         --   Gb  - Linker created -
+CSTACK$$Limit           0x000400         --   Gb  - Linker created -
+INTVEC$$Base            0x008000         --   Gb  - Linker created -
+INTVEC$$Limit           0x008080         --   Gb  - Linker created -
+Region$$Table$$Base     0x008290         --   Gb  - Linker created -
+Region$$Table$$Limit    0x00829a         --   Gb  - Linker created -
+TIM2_ARRPreloadConfig   0x0081e6  0x2f  Code  Gb  stm8s_tim2.o [1]
+TIM2_Cmd                0x0081b7  0x2f  Code  Gb  stm8s_tim2.o [1]
+TIM2_OC1Init            0x008080  0xac  Code  Gb  stm8s_tim2.o [1]
+TIM2_OC1PreloadConfig   0x008215  0x2f  Code  Gb  stm8s_tim2.o [1]
+TIM2_PWMConfig          0x00826c  0x24  Code  Lc  main.o [1]
+TIM2_TimeBaseInit       0x0082d8   0xc  Code  Gb  stm8s_tim2.o [1]
+__DebugBreak            0x0082fe   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x0082b1  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x008244        Code  Gb  init_small.o [4]
+__iar_data_init2        0x00829a  0x17  Code  Gb  init.o [4]
+__iar_program_start     0x0082c5        Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x0082f7        Code  Gb  unhandled_exception.o [4]
+__intvec                0x008000        Data  Gb  interrupt.o [4]
+__low_level_init        0x0082f1   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0082e9        Code  Gb  cexit.o [4]
+assert_failed           0x0082fa   0x2  Code  Gb  main.o [1]
+exit                    0x0082f4   0x3  Code  Gb  exit.o [4]
+main                    0x0082e4   0x5  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  543 bytes of readonly  code memory
+  224 bytes of readonly  data memory
+  274 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
