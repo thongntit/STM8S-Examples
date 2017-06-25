@@ -8,13 +8,16 @@
     <path>$WS_DIR$\3-EXTI\EXTI.ewp</path>
   </project>
   <project>
-    <path>$WS_DIR$\1-GPIO\gpio.ewp</path>
+    <path>$WS_DIR$\1-GPIO\GPIO.ewp</path>
   </project>
   <project>
-    <path>$WS_DIR$\5-PWM\PWM.ewp</path>
+    <path>$WS_DIR$\4-ITC\ITC.ewp</path>
   </project>
   <project>
-    <path>$WS_DIR$\4-TIM\TIM.ewp</path>
+    <path>$WS_DIR$\6-PWM\PWM.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\5-TIM\TIM.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

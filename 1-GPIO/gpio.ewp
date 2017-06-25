@@ -257,9 +257,9 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>C:\Users\nanol\Desktop\STM8S-Examples\1-GPIO\STM8S_StdPeriph_Driver\inc</state>
-          <state>C:\Users\nanol\Desktop\STM8S-Examples\1-GPIO\STM8S_StdPeriph_Driver\src</state>
-          <state>C:\Users\nanol\Desktop\STM8S-Examples\1-GPIO\STM8S_StdPeriph_Driver</state>
+          <state>$PROJ_DIR$\STM8S_StdPeriph_Driver\inc</state>
+          <state>$PROJ_DIR$\STM8S_StdPeriph_Driver\src</state>
+          <state>$PROJ_DIR$\STM8S_StdPeriph_Driver</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
