@@ -38,7 +38,7 @@ ShowSource=1
 [Simulator]
 Freq=16000000
 [DebugChecksum]
-Checksum=629101489
+Checksum=3501416
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -57,7 +57,10 @@ LogFile=_ ""
 [Breakpoints]
 Count=0
 [Aliases]
-Count=0
-SuppressDialog=0
+A0=_ "C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\main.c" ""
+A1=_ "C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\src\stm8s_clk.c" "C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\src\stm8s_clk.c"
+A2=_ "C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\src\stm8s_tim2.c" ""
+Count=3
+SuppressDialog=1
 [DebuggerSettings]
 DisableInterruptsWhenStepping=0

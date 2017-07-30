@@ -1,22 +1,22 @@
-"C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\main.c"
+"C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\main.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\inc
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\inc
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\src
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\src
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\inc
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\inc
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver\src
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver\src
 -I
-C:\Users\nanol\Desktop\STM8S-Examples\5-PWM\STM8S_StdPeriph_Driver
+C:\Users\nanol\Desktop\STM8S-Examples\6-PWM\STM8S_StdPeriph_Driver
 -DSTM8S003=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
