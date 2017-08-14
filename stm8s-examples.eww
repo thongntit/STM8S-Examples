@@ -19,6 +19,9 @@
   <project>
     <path>$WS_DIR$\5-TIM\TIM.ewp</path>
   </project>
+  <project>
+    <path>$WS_DIR$\7-UART\UART.ewp</path>
+  </project>
   <batchBuild/>
 </workspace>
 
